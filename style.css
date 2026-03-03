@@ -1,0 +1,13 @@
+#icon{
+    background-color: rgb(122, 181, 209);
+    background-position: center;
+    background: repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+
+nav{
+    display: flex;
+}
