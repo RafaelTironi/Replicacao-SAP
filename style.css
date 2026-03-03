@@ -1,16 +1,57 @@
-#icon {
-    background-color: rgb(122, 181, 209);
-    background-position: center;
-    background: repeat;
-    background-size: cover;
-    margin: 0;
-    width: 100px;
-    height: 100px;
+body {
+    font-family: Arial, sans-serif;
 }
 
-nav {
+.container {
+    background: #dbe7f6;
+    padding: 40px;
+    border-radius: 20px;
     display: flex;
+    align-items: center;
 }
+
+/* Robô */
+.container img {
+    width: 140px;
+}
+
+/* Textos */
+.texto h2 {
+    color: #174a9c;
+    font-weight: 500;
+}
+
+.texto h1 {
+    color: #174a9c;
+    margin-bottom: 20px;
+}
+
+/* Botões principais */
+.texto button {
+    display: block;
+    width: 380px;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #174a9c;
+    color: white;
+    text-align: left;
+}
+
+/* Botão menor */
+.chat {
+    width: 150px;
+    background: white 
+    color: #174a9c 
+    border: 2px solid #174a9c;
+}
+
+
+
+
+
+
 
 
 
