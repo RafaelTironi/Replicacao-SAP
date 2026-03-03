@@ -1,4 +1,4 @@
-#icon{
+#icon {
     background-color: rgb(122, 181, 209);
     background-position: center;
     background: repeat;
@@ -8,6 +8,54 @@
     height: 100px;
 }
 
-nav{
+nav {
     display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navbar-title {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+header {
+    background-color: rgb(243, 215, 90);
+    justify-content: space-around;
+}
+
+#icon_save {
+    width: 12px;
+    height: 12px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+    background-color: grey;
+    justify-content: space-around;
 }
