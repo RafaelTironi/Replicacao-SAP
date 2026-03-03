@@ -9,22 +9,49 @@
 <link rel="stylesheet" href="style.css">
 
 <body>
-    <div class="container">
-    <img src="assets/roubo.png" alt="robo">
+    <main class="topo">
 
-    <div class="texto">
-        <h2>Olá, tudo bem?</h2>
-        <h1>Como posso ajudar hoje?</h1>
+        <!-- LADO ESQUERDO -->
+        <div class="esquerda">
+            <img id="robo" src="assets/roubo.png" alt="robo">
 
-        <ul><button>QUERO COMPRAR MATERIAL</button> </ul>
-        <ul><button>QUERO COMPRAR SERVIÇO</button> </ul>
-        <ul><button>CONSULTAR FLUXO DE PROCESSOS</button> </ul>
-        <ul><button>STATUS DAS MINHAS REQUISIÇÕES</button> </ul>
-        <ul><button>QUERO COMPRAR MATERIAL</button> </ul>
-    </div>
-</div>
+            <div class="texto">
+                <h2>Olá, tudo bem?</h2>
+                <h1>Como posso ajudar hoje?</h1>
 
-    <main>
+                <button>QUERO COMPRAR MATERIAL</button>
+                <button>QUERO COMPRAR SERVIÇO</button>
+                <button>CONSULTAR FLUXO DE PROCESSOS</button>
+                <button>STATUS DAS MINHAS REQUISIÇÕES</button>
+                <button>QUERO COMPRAR MATERIAL</button>
+            </div>
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="pedidos">
+            <h3>Status de pedidos recentes</h3>
+
+            <div class="linha">
+                <p>#125</p>
+                <p>20/04/2020</p>
+                <p>R$ 1.250,50</p>
+                <p class="verde">Processando</p>
+            </div>
+
+            <div class="linha">
+                <p>#125</p>
+                <p>20/04/2020</p>
+                <p>R$ 1.250,50</p>
+                <p class="amarelo">Aguardando</p>
+            </div>
+
+            <div class="linha">
+                <p>#125</p>
+                <p>20/04/2020</p>
+                <p>R$ 1.250,50</p>
+                <p class="vermelho">Cancelado</p>
+            </div>
+        </div>
 
     </main>
 </body>

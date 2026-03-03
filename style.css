@@ -1,54 +1,111 @@
 body {
+    margin: 0;
+    background: #ffffff;
     font-family: Arial, sans-serif;
 }
 
-.container {
-    background: #dbe7f6;
-    padding: 40px;
-    border-radius: 20px;
+
+.topo {
+    align-items: flex-start;
+    background: #a8c0e6;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 25px;
+    position: relative;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
 }
 
-/* Robô */
-.container img {
-    width: 140px;
+.esquerda {
+    display: flex;
+    gap: 40px;
+    padding-right: 40px;
+    border: right 2px; #ffffff;
+
 }
 
-/* Textos */
+.esquerda img {
+    width: 200px;
+}
+
 .texto h2 {
+    text-align: center;
     color: #174a9c;
     font-weight: 500;
 }
 
 .texto h1 {
+    text-align: center;
     color: #174a9c;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    font-size: 30px;
 }
 
-/* Botões principais */
 .texto button {
     display: block;
-    width: 380px;
-    margin: 10px 0;
-    padding: 10px 20px;
+    width: 420px;
+    margin: 12px 150px;
+    padding: 12px 100px;
     border: none;
-    border-radius: 25px;
+    border-radius: 8px;
     background: #174a9c;
     color: white;
     text-align: left;
+    font-size: 13px;
 }
 
-/* Botão menor */
-.chat {
-    width: 150px;
-    background: white 
-    color: #174a9c 
-    border: 2px solid #174a9c;
+.pedidos {
+    margin-top: 90px;
+    height: 250px;
+    width: 50%;
+    background: #234f9c;
+    padding: 30px;
+    border-radius: 20px;
+    padding-left: 50px;
 }
 
+.pedidos h3 {
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+}
 
+.linha {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    font-size: 14px;
+}
 
+.linha p {
+    margin: 0px;
+}
+
+.verde {
+    background: #34c759;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+
+.amarelo {
+    background: #ffcc00;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+
+.vermelho {
+    background: #ff3b30;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
 
 
 
