@@ -22,7 +22,7 @@ body {
     display: flex;
     gap: 40px;
     padding-right: 40px;
-    border: right 2px; #ffffff;
+    border-right: 2px solid #174a9c;
 
 }
 
@@ -131,16 +131,72 @@ body {
 
 
 
-#navbar-title {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: white;
 }
 
 
+#navbar-title {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(211, 206, 206);
+
+
+}
+
 header {
-    background-color: rgb(243, 215, 90);
+    display: flex;
     justify-content: space-around;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+
+ 
+}
+
+.menu {
+    display: flex;
+    background-color: rgb(211, 206, 206);
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
 }
 
 #icon_save {
@@ -148,12 +204,49 @@ header {
     height: 12px;
 }
 
-.navbar{
-    display: flex;
-    flex-direction: column;
+#icon_cancel {
+    width: 12px;
+    height: 12px;
 }
-.menu{
-    display: flex;
-    background-color: grey;
-    justify-content: space-around;
+
+#icon_edit {
+    width: 12px;
+    height: 12px;
+
+}
+
+#icon_save_draft {
+    width: 12px;
+    height: 12px;
+}
+
+
+#icon_refresh {
+    width: 16x;
+    height: 16px;
+}
+
+#icon_undo {
+    width: 12px;
+    height: 12px;
+}
+
+#icon_redo {
+    width: 12px;
+    height: 12px;
+}
+
+#icon_cima{
+    width: 20px;
+    height: 20px;
+}
+
+#icon_direito{
+    width: 25px;
+    height: 20px;
+}
+
+#icon_baixo{
+    width: 20px;
+    height: 20px;
 }
