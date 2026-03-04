@@ -358,11 +358,6 @@ header {
     margin: 0px;
 }
 
-body {
-    background-color: white;
-   
-}
-
 
 #navbar-title {
     font-size: 30px;
@@ -410,7 +405,7 @@ body {
 
 
 #icon_refresh {
-    width: 16x;
+    width: 16px;
     height: 16px;
 }
 
@@ -440,7 +435,7 @@ body {
 }
 
 #navigation{
-
+width: 30%;
     border-right: black solid 1px;
 }
 
@@ -458,7 +453,7 @@ body {
     background-color: rgb(211, 206, 206);
     padding: 5px;
     border-radius: 5px;
-    border-top: 6px solid rgb(105, 178, 255);
+    border-top: 4px solid rgb(105, 178, 255);
 }
 
 table {
@@ -481,7 +476,7 @@ th {
     background-color: #b8d1f5;
 }
 
-.selection-col {
+.coluna-selecao {
     width: 20px;
 }
 
@@ -496,11 +491,57 @@ th {
     background-color: rgb(226, 225, 225);
 }
 
-.navigation-overview{
+.navigation-Overview-Atributes{
     display: flex;
+}
+
+.lado-direito{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
 }
 
 #menu_overview {
     border-top: 2px solid rgb(105, 178, 255);
     background-color: rgb(226, 225, 225);
+}
+
+.Atributes{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#Atributes-title{
+    display: flex;
+    align-items: baseline;
+  gap: 50px;
+  border-top: 5px solid #ccc ;
+  border-left: 5px solid #ccc;
+  border-bottom: 2px solid  rgb(105, 178, 255);
+}
+
+.attributes-form {
+    display: flex;
+    gap: 60px;
+    padding: 20px;
+    background: #f7f7f7;
+}
+
+.coluna-att {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.coluna-att label {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.coluna-att input,
+.coluna-att select {
+    padding: 4px;
+    border: 1px solid #bbb;
+    height: 28px;
 }
