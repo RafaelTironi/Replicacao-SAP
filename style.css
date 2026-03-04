@@ -1,40 +1,50 @@
 body {
+    background: white;
     margin: 0;
-    background: #ffffff;
     font-family: Arial, sans-serif;
 }
 
 
+
+
 .topo {
-    align-items: flex-start;
-    background: #a8c0e6;
-    margin: 20px;
-    padding: 50px;
-    border-radius: 25px;
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 80px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
 
 .esquerda {
+
+
+    margin-right: 40px;
+    flex-wrap: wrap;
     display: flex;
-    gap: 40px;
     padding-right: 40px;
+<<<<<<< HEAD
+    border-right:  2px;
+=======
     border-right: 2px solid #174a9c;
+>>>>>>> d1bf254d2cae125189bdec7c870f6e608f0a9919
+
 
 }
+
 
 .esquerda img {
+   
     width: 200px;
+    height: 400px;
 }
+
 
 .texto h2 {
     text-align: center;
     color: #174a9c;
     font-weight: 500;
 }
+
 
 .texto h1 {
     text-align: center;
@@ -43,28 +53,35 @@ body {
     font-size: 30px;
 }
 
+
 .texto button {
-    display: block;
-    width: 420px;
-    margin: 12px 150px;
-    padding: 12px 100px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
     border: none;
     border-radius: 8px;
     background: #174a9c;
     color: white;
     text-align: left;
-    font-size: 13px;
 }
 
+
 .pedidos {
+    padding-top: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 350px;
     margin-top: 90px;
     height: 250px;
-    width: 50%;
+    width: 350px;
     background: #234f9c;
     padding: 30px;
     border-radius: 20px;
     padding-left: 50px;
+    flex-wrap: wrap;
 }
+
 
 .pedidos h3 {
     text-align: left;
@@ -72,7 +89,9 @@ body {
     margin-bottom: 20px;
 }
 
+
 .linha {
+    margin-bottom: 80px;
     background: white;
     display: flex;
     justify-content: space-between;
@@ -83,9 +102,11 @@ body {
     font-size: 14px;
 }
 
+
 .linha p {
     margin: 0px;
 }
+
 
 .verde {
     background: #34c759;
@@ -94,11 +115,13 @@ body {
     border-radius: 15px;
 }
 
+
 .amarelo {
     background: #ffcc00;
     padding: 5px 12px;
     border-radius: 15px;
 }
+
 
 .vermelho {
     background: #ff3b30;
@@ -106,6 +129,93 @@ body {
     padding: 5px 12px;
     border-radius: 15px;
 }
+
+
+.parte2{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+
+.recomendacoes{
+    width: 65%;
+    background: #a8c0e6;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.mensagens{
+    width: 30%;
+    background: #a8c0e6;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.cabecalho p{
+    margin: 0;
+}
+.cabecalho2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cabecalho a{
+    color: blue;
+}
+
+
+.produtos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+.amostra{
+    background-color: white;
+    padding: 10px;
+    width: 120px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+
+.amostra img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+
+
+}
+
+
+.preco{
+    color: lightgreen;
+}
+
+
+.msg{
+    background: white;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+
 
 
 
