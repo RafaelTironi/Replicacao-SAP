@@ -23,6 +23,7 @@ body {
     padding-right: 40px;
     border-right: 2px solid #174a9c;
 
+
 }
 
 
@@ -457,6 +458,7 @@ body {
     background-color: rgb(211, 206, 206);
     padding: 5px;
     border-radius: 5px;
+    border-top: 6px solid rgb(105, 178, 255);
 }
 
 table {
@@ -491,9 +493,14 @@ th {
    display: flex;
     align-items: baseline;
     gap: 20px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(226, 225, 225);
 }
 
 .navigation-overview{
     display: flex;
+}
+
+#menu_overview {
+    border-top: 2px solid rgb(105, 178, 255);
+    background-color: rgb(226, 225, 225);
 }
