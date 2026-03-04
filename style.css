@@ -163,10 +163,15 @@ body {
 
 
 
-
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
 
 body {
     background-color: white;
+   
 }
 
 
@@ -178,17 +183,11 @@ body {
 
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
-}
-
 .navbar {
     display: flex;
     flex-direction: column;
 
- 
+
 }
 
 .menu {
@@ -236,17 +235,77 @@ header {
     height: 12px;
 }
 
-#icon_cima{
+#icon_cima {
     width: 20px;
     height: 20px;
 }
 
-#icon_direito{
+#icon_esquerda {
     width: 25px;
     height: 20px;
 }
 
-#icon_baixo{
+#icon_baixo {
     width: 20px;
     height: 20px;
+}
+
+#navigation{
+
+    border-right: black solid 1px;
+}
+
+.navigation-header{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    background-color: whitesmoke;
+    
+}
+
+.botao_navigation {
+    display: flex;
+    gap: 5px;
+    background-color: rgb(211, 206, 206);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.linha-selecionada {
+    background-color: #b8d1f5;
+}
+
+.selection-col {
+    width: 20px;
+}
+
+.ativada {
+    background-color: #0574ea;
+}
+
+#titulo-overview {
+   display: flex;
+    align-items: baseline;
+    gap: 20px;
+    background-color: rgb(224, 224, 224);
+}
+
+.navigation-overview{
+    display: flex;
 }
